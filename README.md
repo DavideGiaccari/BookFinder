@@ -1,2 +1,2 @@
 # BookFinder
-Based on the Open Library API. You can search for a book using the category keyword and read its description
+La pagina web è basata sull'Api di Open Library, grazie alla quale potremmo cercare nella barra di testo la categoria di libri per poi visualizzarne una lista di titoli disponibili sul sito
