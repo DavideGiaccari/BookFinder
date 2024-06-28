@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricerca Libri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/library.jpg" alt="Libreria">
+        <h1><span style="color:#e61409;">Book</span><span style="color:#5d5855;">Finder</span></h1>
+        <div class="search-box">
+            <h2>Cerca in base al tuo genere preferito, autore o titolo!</h2>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Es. Fantasy, Horror, J.K. Rowling ..." required>
+                <button type="submit" id="search-button">Cerca</button>
+            </form>
+        </div>
+    </header>
+    <div class="container">
+        <ul class="book-list" id="book-list"></ul>
+        <div id="description-container" class="book-description"></div>
+        <div id="loading-indicator" style="display: none;">Caricamento...</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
